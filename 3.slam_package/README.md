@@ -1,4 +1,15 @@
-# SLAM十四讲工程配置（VS code）
+# 3. SLAM相关库测试
+
+## 3.1 Opencv
+
+
+## 3.2 Eigen
+
+
+## 3.3 Sophus
+
+
+## 3.4 g2o
 
 [VS CODE下配置《视觉SLAM十四讲》工程](https://suyouge.github.io/2020/01/18/package-vslam-3/)  
 

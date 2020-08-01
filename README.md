@@ -1,36 +1,30 @@
-﻿# 文件目录
+﻿# c++/SLAM学习笔记
 
-这个项目主要包含一些零碎的杂项，包括vs-code学习，十四讲的代码实现，工程配置，
-leetcode算法(很少)，pat-test的练习题(乙级的部分)，今后有一些零碎的项目还是会加入到这个项目下面。
+c++学习笔记，主要包含以下几部分：
 
-![picture](/src/slam_test/ubuntu.png)
+* c++基础语法
+* slam相关算法（NMS, path_planning）
+* slam相关库的使用（opencv, g2o, sophus）
+* 多线程
+* 基本算法
 
-## 1.1 VSLAM笔记归档
 
-**NEW**：[VSLAM笔记归档](/vslam-note.md)
+## c++基础语法
 
-方便更新，博客界面不想做置顶了。
+[c++基础语法](1.cpp_basic_grammar)
 
-## 1.2 package_test
+## slam相关算法
 
-[STL_algorithm_test](/src/package_test)
+[slam相关算法](2.slam_algorithm)
 
-## 1.3 pta_basic
+## slam相关库的使用
 
-[pta_basic](/src/pta_basic)
+[slam相关库的使用](3.slam_package)
 
-## 1.4 slam_test
+## 多线程
 
-[slam_test](/src/slam_test)
+[多线程](4.multi_thread)
 
-## 1.5 c++ multi_thread_programming
+## 基本算法
 
-**NEW**：[c++ multi-thread programming](/src/multi_thread)
-
-## 1.6 nms
-
-**NEW**：[NMS](/src/nms)
-
-## 1.7 leetcode
-
-[leetcode算法](/src/leetcode)
+[基本算法](5.basic_algorithm)
