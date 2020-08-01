@@ -1,0 +1,9 @@
+*.o
+*.out
+/.idea
+*.avi
+*.MP4
+*.JPG
+make
+/build
+./basic_cpp/bin

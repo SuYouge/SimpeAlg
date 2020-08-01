@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",                
+                "/usr/include",
+                "/usr/local/include",
+                "/usr/local/include/Eigen",
+                "/usr/local/include/ceres",
+                "/usr/local/include/opencv2",
+                "/usr/local/include/pangolin",
+                "/usr/local/include/g2o"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
