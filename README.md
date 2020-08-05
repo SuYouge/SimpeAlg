@@ -17,14 +17,14 @@ c++学习笔记，主要包含以下几部分：
 
 [slam相关算法](2.slam_algorithm)
 
-## slam相关库的使用
+## 基本算法
 
-[slam相关库的使用](3.slam_package)
+[基本算法](3.basic_algorithm)
 
 ## 多线程
 
 [多线程](4.multi_thread)
 
-## 基本算法
+## slam相关库的使用
 
-[基本算法](5.basic_algorithm)
+[slam相关库的使用](5.slam_package)

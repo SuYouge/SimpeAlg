@@ -1,27 +1,16 @@
-# 1. 例程列表
+[容器-vector](stl_container_1.cpp): vector基础
 
-## 1.1 c++特性
+[容器-set](stl_container_2.cpp): set基础
 
-[构造函数](construction.cpp)  
+[容器-set](stl_container_2_2.cpp): set排序和遍历, `operator <`重载
 
-## 1.2 STL
+[容器-map](stl_container_3.cpp):map基础
 
-### 1.2.1 容器
+[stl-sort](stl_sort.cpp): algorithm排序
 
-[STL_map_unodredermap容器](map_unorderedmp.cpp)  
-[STL_vector容器](stl_container_1.cpp)  
-[STL_set容器-1](stl_container_2.cpp)  
-[STL_set容器-2](stl_container_2_2.cpp)  
-[STL_map容器](stl_container_3.cpp)  
+[stl-sort-permutation](stl_sort_permutation.cpp):排列，next_permutation
 
-### 1.2.2 算法  
-[STL_next_permutation排列组合算法](stl_sort_permutation.cpp)  
+[手写链表-1](list.cpp):手写链表结构
+[手写链表-2](temp_list.cpp):手写链表结构
 
-## 1.3 手写数据结构
-
-[手写链表测试](list.cpp)  
-[手写链表](temp_list.cpp)  
-
-## 1.4 c++库测试
-
-[线性代数库-Eigen测试](eigen-test.cpp)  
+[stl-map/unordered_map](map_unorderedmp.cpp): map, unordered_map

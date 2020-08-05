@@ -39,7 +39,7 @@ int main(){
     /*为何使用const_cast*/
 
     //原因1： 调用一个参数不是const的函数，但传入的参数是cosnt的，需要去除const限定以便函数能够接受这个实际参数
-
+    // Printer(&const_value); // const int* 不能转换为 int * 
     Printer(const_cast<int* >(&const_value));
 
     //原因2： const作为函数重载标识符时，const对象想调用自身的非const方法
