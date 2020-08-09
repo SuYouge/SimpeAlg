@@ -41,7 +41,7 @@ void dj(int s)
     while (!pq.empty())
     {
         p = pq.top(), pq.pop(); // 逗号表达式
-        v = p.second;           ///v视作e.from
+        v = p.second;           // v视作e.from
         if (p.first > disTo[v])
             continue;
         for (i = 0; i < G[v].size(); ++i)
@@ -75,3 +75,14 @@ int main()
     }
     return 0;
 }
+/*
+7 8
+0 1 3
+0 2 4
+0 3 5
+1 4 2
+2 4 3
+2 5 2
+5 6 1
+3 6 5
+*/
