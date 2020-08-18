@@ -116,8 +116,8 @@ vector<int> inorderTraversal(TreeNode *root) {
 
 void printv(vector<int> input) {
     for (auto i : input) {
-        cout << i << " ";
-        // cout << char(i - 1 + 'A') << " ";
+        // cout << i << " ";
+        cout << char(i - 1 + 'A') << " ";
     }
     cout << endl;
 }
