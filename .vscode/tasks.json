@@ -9,12 +9,19 @@
             "command": "g++",
             "args": [
                 "${fileDirname}/${fileBasename}",
-                "-o${fileBasenameNoExtension}.o" // 啊这……
+                "-o",
+                "${fileBasenameNoExtension}.o" // 啊这……
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "find ${workspaceFolder}/ -name '*.o' -delete",
             "problemMatcher": "$gcc"
         }
     ]
